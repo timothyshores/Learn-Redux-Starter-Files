@@ -1,6 +1,7 @@
 import React from 'react';
-import { render } from 'react-dom'
+import { render } from 'react-dom';
 
-import css from './styles/style.styl'
+import css from './styles/style.styl';
+import Main from './components/Main';
 
-render(<h1>Hello</h1>, document.getElementById('root'));
+render(<Main />, document.getElementById('root'));
